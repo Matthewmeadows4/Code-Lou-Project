@@ -1,0 +1,82 @@
+html{
+    font-family: 'Russo One', sans-serif;
+}
+body{
+    height: 100%;
+    width: auto;
+    background-color:#F0A868;
+}
+
+main{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #6a8d73;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: #f4fdd9;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#about{
+    margin: 10px 10px 10px 10px;
+    padding: 100px;
+    border-radius: 100px;
+    border-style: solid;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffe8c2;
+
+}
+#education{
+    margin: 10px 10px 10px 10px;
+    padding: 100px;
+    border-radius: 100px;
+    border-style: solid;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe8c2;
+}
+#interests{
+    margin: 10px 10px 10px 10px;
+    padding: 100px;
+    border-radius: 100px;
+    border-style: solid;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe8c2;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 100px;
+    border-style: solid;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
