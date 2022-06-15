@@ -85,10 +85,12 @@ nav{
     border-style: solid;
 }
 header{
-    margin: 5px 5px 5px 5px;
     padding: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    line-height: 2px;
 }
 
 #projects{
@@ -127,4 +129,8 @@ header{
     width: 100%;
     display: flex;
     flex-direction: row;} 
+
+footer{
+    flex-direction: row;
+}
    }
