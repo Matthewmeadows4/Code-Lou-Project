@@ -32,6 +32,7 @@ main{
     border-radius: 100px;
     border-style: solid;
     width: 40%;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,6 +47,7 @@ main{
     border-radius: 100px;
     border-style: solid;
     width: 40%;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,6 +61,7 @@ main{
     border-radius: 100px;
     border-style: solid;
     width: 40%;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
