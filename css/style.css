@@ -123,9 +123,5 @@ header{
    main{
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: row;} 
    }
-
-   #about, #education, #interests{
-
-}
