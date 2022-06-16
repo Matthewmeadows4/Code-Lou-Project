@@ -92,6 +92,7 @@ nav{
     align-content: center;
     align-items: center;
     text-align: center;
+    line-height: 20px;
 }
 
 #projects{
@@ -120,9 +121,9 @@ nav{
     height: 300px;
     border-radius: 30px;
     border-style: solid;
-    box-shadow: 10px 10px 6px #6a8d73 ;
+    box-shadow: 10px 10px 6px #6a8d73 ;}
 }
-}
+
 
 
 @media (min-width: 1450px) {
