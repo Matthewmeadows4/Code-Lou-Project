@@ -124,14 +124,16 @@ nav{
     box-shadow: 10px 10px 6px #6a8d73 ;}
 
 
-    .contact{
+    .contact, form{
         display: flex;
-        margin: ;
+        background-color: #6a8d73;
         flex-direction: column;
         justify-content: center;
+        align-content: center;
         align-items: center;
-        background-color: #6a8d73;
     }
+
+
 }
 
 
