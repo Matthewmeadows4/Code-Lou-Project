@@ -123,18 +123,23 @@ footer{
 
 .contact, form{
     display: flex;
+    flex-wrap: wrap;
     background-color: #6a8d73;
     flex-direction: column;
+    text-align: center;
     justify-content: center;
+    justify-items: center;
     align-content: center;
     align-items: center;    
     }
 
+
+    
   #hamitems a {
-    box-sizing: border-box;
     display: flex;
     width: 100%;
-    background-color: #6a8d73;
+    flex-direction: row;
+    justify-content: center;
     text-decoration: none;
   }
  
@@ -143,10 +148,10 @@ footer{
   }
 
   #hamnav label { 
-    display: block;
+    display: flex;
+    flex-direction: row;
     color: white;
     background: transparent;
-    font-style: normal;
     font-size: 50px;
     padding: 10px;
   }
@@ -155,6 +160,13 @@ footer{
   #hamnav input:checked ~ #hamitems { 
     display: flex;
     flex-direction: column; }
+
+    #return{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 10px;
+    }
   }
 
 
@@ -172,7 +184,9 @@ footer{
 
 .header{
     display: flex;
-    flex-direction: row;
+    flex-direction:column ;
+    justify-content: center;
+    align-content: center;
 }
 
 #hamnav {
