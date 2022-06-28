@@ -23,7 +23,12 @@ main{
     justify-content: space-around;
     align-items: center;
 }
-
+input[type="checkbox"] {
+    opacity: 0;
+}
+.hamburger{
+    display: none;
+}
 #about{
     margin: 10px 10px 10px 10px;
     padding: 100px;
@@ -75,17 +80,12 @@ footer{
     align-items: center;
 }
 
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 
 .header{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
     align-items: center;
     text-align: center;
@@ -130,13 +130,27 @@ nav{
     align-items: center;    
     }
 
-.hamburger{
-    background: transparent;
-    border: 0;
-    cursor: pointer;
-    font-size: 20px;
-}
-}
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+  }
+ 
+  /* (B) SHOW HAMBURGER ICON */
+  #hamnav label { 
+    display: inline-block; 
+    color: white;
+    background: #a02620;
+    font-style: normal;
+    font-size: 30px;
+    padding: 10px;
+  }
+
+  /* (C) TOGGLE SHOW/HIDE MENU */
+  #hamitems { display: none; }
+  #hamnav input:checked ~ #hamitems { display: block; }
+  }
+
 
 
 
@@ -150,50 +164,32 @@ footer{
     flex-direction: row;
 }
 
-.header > .intro{
+
+#hamnav {
+    width: 100%;
+    background: #F0A868;
+    border-style: none;
+    border: 10px;
+    border: #6a8d73;
+}
+
+#hamitems { 
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-.header > .nav{
-    display: flex;
-    padding: 10px;
-    justify-content: space-around;
-    align-items: flex-end;
-}
+    border: #6a8d73;
+    border-style: none;
+    font-size: 30px;}
 
 
-
-nav > ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-nav > ul > li {
-    font-size: 50px;
-    list-style: none;
-    padding-left: 10px;
-    padding-right: 10px;
-    justify-content: space-between;
-}
-
-nav > ul> Li> a{
+#hamitems a {
+   padding: 10px;
+    color: white;
     text-decoration: none;
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
 }
 
-nav > ul >li > a:link{
-    color: #6a8d73;
-}
+#hamitems a:hover { 
+    background: #6a8d73; }
 
-nav > ul >li > a:visited{
-    color: #6a8d73;
-}
-
-nav > ul >li > a:hover{
-    color: black;
-}
+#hamnav label, #hamburger { 
+    display: none; } 
 }
