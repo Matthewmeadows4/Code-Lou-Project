@@ -132,21 +132,25 @@ footer{
 
   #hamitems a {
     box-sizing: border-box;
-    display: block;
+    display: flex;
     width: 100%;
+    background-color: #6a8d73;
+    text-decoration: none;
   }
  
-  /* (B) SHOW HAMBURGER ICON */
+  #hamitems a:hover{
+    background-color: #F0A868;
+  }
+
   #hamnav label { 
     display: block;
     color: white;
     background: transparent;
     font-style: normal;
-    font-size: 30px;
+    font-size: 50px;
     padding: 10px;
   }
 
-  /* (C) TOGGLE SHOW/HIDE MENU */
   #hamitems { display: none; }
   #hamnav input:checked ~ #hamitems { 
     display: flex;
@@ -191,8 +195,13 @@ footer{
     color: white;
     text-decoration: none;
     text-align: center;
-}
-
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    background-color: #6a8d73;
+    text-decoration: none;
+  }
+ 
 #hamitems a:hover { 
     background: #F0A868; }
 
