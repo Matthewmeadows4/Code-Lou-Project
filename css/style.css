@@ -83,7 +83,7 @@ footer{
 
 .header{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
@@ -138,7 +138,8 @@ footer{
  
   /* (B) SHOW HAMBURGER ICON */
   #hamnav label { 
-    display: inline-block; 
+    display: flex; 
+    flex-direction: row;
     color: white;
     background: #a02620;
     font-style: normal;
@@ -164,10 +165,14 @@ footer{
     flex-direction: row;
 }
 
+.header{
+    display: flex;
+    flex-direction: row;
+}
 
 #hamnav {
     width: 100%;
-    background: #F0A868;
+    background: #6a8d73;
     border-style: none;
     border: 10px;
     border: #6a8d73;
@@ -175,7 +180,7 @@ footer{
 
 #hamitems { 
     display: flex;
-    border: #6a8d73;
+    border: #F0A868;
     border-style: none;
     font-size: 30px;}
 
@@ -188,7 +193,7 @@ footer{
 }
 
 #hamitems a:hover { 
-    background: #6a8d73; }
+    background: #F0A868; }
 
 #hamnav label, #hamburger { 
     display: none; } 
