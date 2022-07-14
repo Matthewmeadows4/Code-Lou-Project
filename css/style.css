@@ -1,4 +1,4 @@
-@media (min-width: 330px) {
+
   html {
     font-family: "Russo One", sans-serif;
   }
@@ -170,7 +170,65 @@
     align-content: center;
     padding: 10px;
   }
-}
+
+@media (min-width:700px) and (max-width:1450px){
+    main {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+      }
+    
+      footer {
+        flex-direction: row;
+      }
+    
+      .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+      }
+    
+      #hamnav {
+        width: 100%;
+        background: #6a8d73;
+        border-style: none;
+        border: 10px;
+        border: #6a8d73;
+      }
+    
+      #hamitems {
+        display: flex;
+        flex-direction: column;
+        border: #f0a868;
+        border-style: none;
+        font-size: 30px;
+      }
+    
+      #hamitems a {
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        background-color: #6a8d73;
+        text-decoration: none;
+      }
+    
+      #hamitems a:hover {
+        background: #f0a868;
+      }
+    
+      #hamnav label,
+      #hamburger {
+        display: none;
+      }
+    }
+
+
 
 @media (min-width: 1450px) {
   main {
