@@ -137,10 +137,11 @@
   }
 
   #hamitems a {
+    background-color: #6a8d73;
     display: flex;
-    width: 100%;
     flex-direction: row;
     justify-content: center;
+    text-align: center;
     text-decoration: none;
   }
   #hamitems a:hover {
@@ -171,7 +172,7 @@
     padding: 10px;
   }
 
-@media (min-width:700px) and (max-width:1450px){
+@media (min-width:667px) and (max-width:1450px){
     main {
         width: 100%;
         display: flex;
