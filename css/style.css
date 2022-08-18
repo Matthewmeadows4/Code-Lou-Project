@@ -92,12 +92,28 @@
   #projects {
     display: flex;
     flex-direction: column;
-    align-content: center;
     align-items: center;
     justify-content: center;
     background-color: #6a8d73;
     text-align: center;
+    padding: 20px;
   }
+
+  .bookGen {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 200px;
+    border-radius: 30px;
+    color: #f4fdd9;
+  }
+
+  .bookGen > a {
+    text-decoration: none;
+  }
+
+  
+  
 
   #about > img {
     width: 250px;
@@ -171,6 +187,9 @@
     align-content: center;
     padding: 10px;
   }
+
+
+  
 
 @media (min-width:667px) and (max-width:1450px){
     main {
